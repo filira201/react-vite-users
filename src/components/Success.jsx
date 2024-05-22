@@ -1,10 +1,15 @@
-const Success = ({count}) => {
+const Success = ({ count }) => {
   return (
     <div className="success-block">
-      <img />
-      <h3></h3>
-      <p></p>
-      <button></button>
+      <img src="/assets/success.svg" alt="Success" />
+      <h3>Успешно!</h3>
+      <p>Всем {count} пользователям отправлено приглашение.</p>
+      <button
+        onClick={() => window.location.reload()}
+        className="send-invite-btn"
+      >
+        Назад
+      </button>
     </div>
   );
 };
