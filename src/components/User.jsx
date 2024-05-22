@@ -26,7 +26,7 @@ const User = ({
       <img
         onClick={() => onClickInvited(id)}
         className="action"
-        src={`/assets/${isInvited ? "minus" : "plus"}.svg`}
+        src={`./assets/${isInvited ? "minus" : "plus"}.svg`}
         alt="Action"
       />
     </li>
